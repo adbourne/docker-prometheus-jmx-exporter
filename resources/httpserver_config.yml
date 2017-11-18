@@ -1,0 +1,11 @@
+##
+# This is blank config and is intended to be overwritten
+# See here for example configs: https://github.com/prometheus/jmx_exporter/tree/master/example_configs
+##
+---
+hostPort: localhost:5555
+username:
+password:
+
+rules:
+- pattern: ".*"
